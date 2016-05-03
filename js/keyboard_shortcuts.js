@@ -9,7 +9,7 @@ $A$.SUBLIME_SHORTCUTS.scuts = [
 		["Ctrl + P", "Goto anything", ""],
 		["Ctrl + G", "Goto line", ""],
 		["Ctrl + R", "Goto symbol (function name, table, etc.)", ""],
-		["Ctrl + Pg-↑↓", "Goto next/prev file", ""],
+		["Ctrl + PgUp-PgDn", "Goto next/prev file", ""],
 		["Ctrl + K, C", "Goto current selection", ""],
 		["Ctrl + ↑-↓", "Scroll up/down one line (doesn't move cursor)", ""],
 		["Alt + Ctrl + P", "Switch Project", ""]
@@ -17,7 +17,7 @@ $A$.SUBLIME_SHORTCUTS.scuts = [
 	["Tabs", [
 		["Alt + #", "Switch to tab [NUM]", ""],
 		["Ctrl + W", "Close current tab", ""],
-		["Ctrl + Pg-↑↓", "Cycle thru all tabs", ""],
+		["Ctrl + PgUp/Dn", "Cycle thru all tabs", ""],
 		["Ctrl + 1-4", "Switch to pane [NUM]", ""],
 		["Ctrl + Sh + 1-4", "Move tab to [NUM]", ""],
 		["Ctrl + Sh + T", "Open last closed tab", ""]
@@ -52,7 +52,7 @@ $A$.SUBLIME_SHORTCUTS.scuts = [
 	]],
 	["Line Ops", [
 		["Ctrl + ] - [", "Indent/outdent", ""],
-		["Ctrl + Sh + ↑↓", "Swap Line Up/Down", ""],
+		["Ctrl + Sh + ↑-↓", "Swap Line Up/Down", ""],
 		["Ctrl + Sh + D", "Duplicate Line", ""],
 		["Ctrl + Sh + K", "Delete line", ""],
 		["Ctrl + J", "Join Lines", ""],
@@ -70,8 +70,8 @@ $A$.SUBLIME_SHORTCUTS.scuts = [
 		["Ctrl + K, D", "Skip and quick add next", ""],
 		["Ctrl + L", "Expand selection to line", ""],
 		["Ctrl + Sh +L", "Split block of lines (each line gets a cursor)", ""],
-		["Ctrl + Alt + ↑↓", "Column Select (Windows)", ""],
-		["Sh + Alt + ↑↓", "Column Select (Linux)", ""],
+		["Ctrl + Alt + ↑-↓", "Column Select (Windows)", ""],
+		["Sh + Alt + ↑-↓", "Column Select (Linux)", ""],
 		["Ctrl + Sh + Space", "Expand selection to scope", ""],
 		["Ctrl + Sh + M", "Expand selection to brackets", ""],
 		["Ctrl + Sh + J", "Expand selection to indentation", ""],

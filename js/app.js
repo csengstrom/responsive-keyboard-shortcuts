@@ -135,7 +135,7 @@ displayShortcuts = function(){
 //- - - - - - - - - - - - - -
 addKbdTags = function(keys){
 //- - - - - - - - - - - - - -
-	keys = keys.replace(/(\←|\→|\↓|\↑|([NP].[\s\S])|\#|\.|\[|\]|`|\/|([A-Z]?\w+))/g,"<kbd>$1</kbd>");
+	keys = keys.replace(/(\←|\→|\↓|\↑|PgUp|PgDn|([NP].[\s\S])|\#|\.|\[|\]|`|;|:|\/|([A-Z]?\w+))/g,"<kbd>$1</kbd>");
 	return keys;
 };
 
